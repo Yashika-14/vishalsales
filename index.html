@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    a,
+    footer,
+    header,
+    div {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    header {
+      background: url(covr.png);
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+      height: auto;
+
+
+    }
+
+    @media screen and (min-width: 200px) {
+      header {
+        min-height: 500px;
+      }
+
+
+    }
+
+    #logoo {
+      padding-top: 4px;
+      padding-bottom: 5px;
+      position: relative;
+      right: 5px;
+    }
+
+    .card:hover {
+      box-shadow: 15px 15px 15px 15px rgba(2, 19, 66, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="nav-wrapper grey darken-3">
+      <div class="container">
+        <img src="VishalSales.png" height="50px" width="50px" id="logoo" class="hide-on-med-and-down">
+        <a href="index.html" class="brand-logo" id="logo">Vishal Sales</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="owner.html">About Owner</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="owner.html">About Owner</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h4 class="right-align hide-on-med-and-down"> <br><br><br> All kinds of Cleaning Material *Kimberly Clark
+        Products, <br> Housekeeping Items, Toilet Roll *M-Fold, *Tissue Paper, <br> Disposables and Hotel Items
+        Supplier.</h4>
+      <h4 class="right-align show-on-medium-and-down hide-on-med-and-up"> <br><br><br> All kinds of Cleaning Material
+        *Kimberly Clark Products, Housekeeping Items, Toilet Roll *M-Fold, *Tissue Paper, Disposables and Hotel Items
+        Supplier.</h4>
+    </div>
+
+  </header>
+
+
+
+  <div class="row" id="products">
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-image">
+          <img src="one.jpg" height="350px" width="350px">
+        </div>
+        <div class="card-content">
+          <h3>Household Products</h3>
+        </div>
+        <div class="card-action">
+          <a href="household.html" class="btn btn-primary">Find all the Items</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-image">
+          <img src="2.jpg" height="350px" width="350px">
+        </div>
+        <div class="card-content">
+          <h3>Tissue Paper Products</h3>
+        </div>
+        <div class="card-action">
+          <a href="tissue.html" class="btn btn-primary">Find all the Items</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-image">
+          <img src="plate.png" height="350px" width="350px">
+        </div>
+        <div class="card-content">
+          <h3>Disposable Products</h3>
+        </div>
+        <div class="card-action">
+          <a href="disposable.html" class="btn btn-primary">Find all the Items</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer grey darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Connect</h3>
+          <p>Office Contact Number : 0124-4825100</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright grey darken-3">
+      <div class="container center-align">&copy; yashika singh</div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
+
+</body>
+
+</html>
